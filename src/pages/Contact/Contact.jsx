@@ -87,14 +87,14 @@ export default function SignUp() {
             sx={{ mt: 5 }}
           >
          <Typography>
-          <p><FormattedMessage id="app.form"/></p>
+          <p>Contáctame en las redes sociales.</p>
          </Typography> 
             <TextField 
               margin="normal"
               required
               fullWidth
               name="mail"
-              label=<FormattedMessage id="app.mail"/>
+              label="Email"
               type="mail"
               id="mail"
             />
@@ -103,7 +103,7 @@ export default function SignUp() {
               required
               fullWidth
               name="name"
-              label=<FormattedMessage id="app.name"/>
+              label="Nombre"
               type="text"
               id="name"
             />
@@ -112,7 +112,7 @@ export default function SignUp() {
               required
               fullWidth
               name="question"
-              label=<FormattedMessage id="app.comments"/>
+              label="Comentarios"
               type="text"
               id="password"
             />
@@ -127,7 +127,7 @@ export default function SignUp() {
                  borderRadius:8,
                  color:'black' }}
             >
-              <FormattedMessage id="app.send"/>
+              Enviar
             </Button>
             {/* <Copyright sx={{ mt: 8, mb: 4 }} /> */}
           </Box>

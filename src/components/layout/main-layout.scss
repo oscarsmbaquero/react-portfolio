@@ -8,7 +8,7 @@
 
 .main {
     position: relative;
-    //z-index: 5;
+    z-index: 5;
     overflow: hidden;
     transform-origin: left;
     transform-style: preserve-3d;
@@ -39,7 +39,7 @@
 .container.active .main {
     cursor: pointer;
     animation: main-animation 0.5s ease;
-    transform: perspective(1300px) rotateY(20deg) translateZ(310px) scale(0.5);
+    transform: perspective(2300px) rotateY(20deg) translateZ(310px) scale(0.5);
 }
 
 @keyframes main-animation {

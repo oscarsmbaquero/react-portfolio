@@ -7,7 +7,8 @@
 }
 
 body {
-  font-family: "poppins", sans-serif;
+  //font-family: "poppins", sans-serif;
+  font-family: 'Caveat', cursive;
   color: #fff;
   line-height: 1.5;
 }
@@ -20,4 +21,37 @@ a {
 ul,
 li {
   list-style-type: none;
+}
+h1{        
+  // font-size: 32px;
+   //padding: 40px 20px 50px 20px;
+   font-family: 'Caveat', cursive;
+  //  color: white;
+}
+h2{        
+// font-size: 32px;
+ //padding: 40px 20px 50px 20px;
+ font-family: 'Caveat', cursive;
+ color: rgba(38, 192, 189, 0.97);
+ font-weight: bold;
+}
+h3{        
+  // font-size: 32px;
+   //padding: 40px 20px 50px 20px;
+    font-family: 'Caveat', cursive;
+    color: white;
+}
+h6{
+font-family: 'Caveat', cursive;
+color: white;
+}
+h5{
+font-family: 'Caveat', cursive;
+color: black;  
+}
+p{
+font-family: 'Caveat', cursive;
+color: black;
+font-size: 22px;
+margin: 0;
 }

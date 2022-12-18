@@ -12,8 +12,9 @@ import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import { red } from "@mui/material/colors";
 import { Grid } from "@mui/material";
-import logo from "../../assets/images/logo.jpg";
+import logo from "../../assets/logo.jpg";
 import Badge from "react-bootstrap/Badge";
+import './Projects.scss'
 // import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 // import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { MDBIcon } from "mdb-react-ui-kit";
@@ -54,7 +55,7 @@ export default function RecipeReviewCard() {
     return Math.floor(Math.random() * max);
   }
   return (
-    <div data-aos="fade-up">
+    <div data-aos="fade-up" className="projects">
       <Grid container spacing={2}>
         {stack.map((item) => (
           <Grid item xs={12} md={6} lg={4}>
