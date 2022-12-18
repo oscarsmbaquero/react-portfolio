@@ -18,8 +18,8 @@ function App() {
                     <Route path='service' element={<Service />} />
                     <Route path='stack' element={<Stack />} />
                     <Route path='cv' element={<Cv />} />
-                    <Route path='contact' element={<Contact />} />
-                    <Route path='projects' element={<Projects />} />
+                    {/* <Route path='contact' element={<Contact />} />
+                    <Route path='projects' element={<Projects />} /> */}
                 </Route>
             </Routes>
         </Router>
