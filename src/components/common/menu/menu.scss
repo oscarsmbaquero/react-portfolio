@@ -4,7 +4,7 @@
     right: 1;
     width: 25%;
     margin-left: 10px;
-    height: 100vh;
+    height: 40vh;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -42,12 +42,12 @@
         margin-top: 10px;
         position: relative;
         transition: 0.3s ease-in-out;
-        // @media screen and (min-width: 450px) {
-        //     position: aboslute;
-        //     font-size: 0.8rem;
-        //     color: black;
+        @media screen and (max-width: 450px) {
+            text-transform: lowercase;
+           
+            
 
-        // }
+        }
         &::before {
             content: "";
             position: absolute;
