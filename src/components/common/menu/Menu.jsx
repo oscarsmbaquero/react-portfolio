@@ -15,9 +15,9 @@ const Menu = ({ active, setActive }) => {
                 <Link to="/">Inicio</Link>
             </li>
             <li>
-                <Link to="/service">Contacto</Link>
+                <Link to="/cv">Cv</Link>
             </li>
-            <li>
+            {/* <li>
                 <Link to="/contact">Proyectos</Link>
             </li>
             <li>
@@ -25,7 +25,7 @@ const Menu = ({ active, setActive }) => {
             </li>
             <li>
                 <Link to="/contact">Proyectos</Link>
-            </li>
+            </li> */}
         </ul>
     )
 }
