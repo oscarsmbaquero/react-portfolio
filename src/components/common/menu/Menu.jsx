@@ -12,13 +12,19 @@ const Menu = ({ active, setActive }) => {
     return (
         <ul className={`menu ${active ? 'active' : ''}`}>
             <li>
-                <Link to="/">Home</Link>
+                <Link to="/">Inicio</Link>
             </li>
             <li>
-                <Link to="/service">Service</Link>
+                <Link to="/service">Contacto</Link>
             </li>
             <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="/contact">Proyectos</Link>
+            </li>
+            <li>
+                <Link to="/contact">Stack</Link>
+            </li>
+            <li>
+                <Link to="/contact">Proyectos</Link>
             </li>
         </ul>
     )
